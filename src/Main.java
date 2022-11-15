@@ -23,7 +23,7 @@ public class Main<T> {
 
         //демонстрация работы стрингов
         System.out.println("В коробке 1 стрингов лежит:");
-        Object[] arrObjStr = box1.getArr();
+        String[] arrObjStr = box1.getArr();//ЭТА СТРОКА ПРИ ЗАПУСКЕ ПРОГРАММЫ ВЫБРАСЫВАЕТ ОШИБКУ, ЗАМЕНИЛ НА Object
         System.out.println(Arrays.toString(arrObjStr));
         System.out.println(box1.pick());
 
